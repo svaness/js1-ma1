@@ -93,5 +93,3 @@ function catLoop(catArray) {
 
   return catHTML;
 }
-
-console.log(resultsContainer.innerHTML);
