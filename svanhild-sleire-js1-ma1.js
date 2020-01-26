@@ -5,6 +5,7 @@ const cat = {
     console.log("Meow!");
   }
 };
+
 cat.complain();
 
 // question 2
@@ -60,6 +61,7 @@ function catLoop(catArray) {
   for (let i = 0; i < catArray.length; i++) {
     catHTML += `<h5>${catArray[i].name}</h5>`;
   }
+
   return catHTML;
 }
 
@@ -80,6 +82,7 @@ for (let i = 0; i < cats.length; i++) {
                                 <h5>${cats[i].name}</h5>
                                 <p>${ageValue}</p>
                         </div>`;
+
   resultsContainer.innerHTML += details;
 }
 
